@@ -17,8 +17,8 @@ public class BaseDeDonneesTests {
     @Test
     void uneVoiture(){
         Voiture voiture = Mockito.mock(Voiture.class);
-        voiture.setMarque("Fiat");
-        voiture.setPrix(25000);
+        voiture.setMarque("Peugeot");
+        voiture.setPrix(10000);
         voitureRepository.save(voiture);
         when(voitureRepository.findAll()).thenReturn(Collections.singletonList(voiture));
     }
