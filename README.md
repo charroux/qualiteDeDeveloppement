@@ -131,7 +131,7 @@ Ajoutez à cette classe autant de méthodes que vous jugez utile pour tester l'a
 # TP 3 : codage de la classe de service qui intègre la base de données
 
 L'application a développer sur la base des voitures calcule des statistiques sur les voitures.
-La base de cette application est une interface : 
+La base de cette application est une interface : https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
 
 ## Coder une classe de service
 
