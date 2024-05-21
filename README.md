@@ -4,13 +4,38 @@ Le but de ce cours est de faire des tests d'intégration au fur et à mesure que
 tout en vérifiant que les tests précédents continuent de passer sans relever d'erreur. 
 On appelle cela des tests de non regression.
 
-# TD 1
+# TD 1 - JUnit
+
+JUnit est un framework de test unitaire pour le langage de programmation Java, créé par Kent Beck et Erich Gamma.
+
+Etudier un exemple de classe de Test : https://junit.org/junit5/docs/current/user-guide/#writing-tests
+
+Etudier l'utilisation des assertions : https://junit.org/junit5/docs/current/user-guide/#writing-tests-assertions
+
+# TP 1 - JUnit
+
+Créer un projet avec Intellij (cochez la case git).
+Attendre que le projet soit créé.
+Ajouter dans src/main/java un package (org.example par exemple).
+Faire de même dans le dossier de test sr/test/java.
+Créer une classe Voiture dans le packe de src/main/Java.
+Ajoutez à cette classe les attributs :
+- une marque
+- un prix
+Créer une classe VoitureTest dans le package de src/test/Java et écrivez à la norme JUnit le code de test de la classe Voiture.
+Lancer le programme de test (un rapport de test a été généré dans le dossier build/reports/tests/index/html)
+Créer un projet dans votre compte Github.
+Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre projet)
+
+<img src="images/pushExistingProjet.png" width="128"/>
+
+# TD 2
 
 Etude du framework de test inclus dans les projets Spring boot : https://github.com/charroux/springbootest
 
 Etude du framework de test Mockito: https://github.com/charroux/mockito
 
-# TP 1
+# TP 2
 
 ## Présentation de l'application
 
@@ -103,7 +128,7 @@ Sous Linux :
 ```
 Vérifier le rapport de test: build/reports/tests/test/index.html
 
-# TP 2
+# TP 3
 
 ## La base de données
 La base de données est HSQLDB. Elle s'exécute "En mémoire" pour ne pas avoir à démarrer un serveur de base de données tant qu'on est en mode développement.
@@ -128,7 +153,7 @@ https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/test/java/com/e
 
 Ajoutez à cette classe autant de méthodes que vous jugez utile pour tester l'accès à la base de données. 
 
-# TP 3 : codage de la classe de service qui intègre la base de données
+# TP 4 : codage de la classe de service qui intègre la base de données
 
 L'application a développer sur la base des voitures calcule des statistiques sur les voitures.
 La base de cette application est une interface : https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
@@ -149,7 +174,7 @@ VoitureRepository voitureRepository;
 
 Créer un package appelé service pour tester la classe de service et implementez-y un programme de test.
 
-# TP 4 : codage de l'interface Web
+# TP 5 : codage de l'interface Web
 
 ## Cours sur les Web services Rest
 https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
