@@ -36,7 +36,7 @@ Créer un projet dans votre compte Github.
 
 Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre projet)
 
-<img src="images/pushExistingProjet.png" width="300"/>
+<img src="images/pushExistingProjet.png" width="500"/>
 
 # TD 2
 
