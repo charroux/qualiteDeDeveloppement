@@ -15,19 +15,28 @@ Etudier l'utilisation des assertions : https://junit.org/junit5/docs/current/use
 # TP 1 - JUnit
 
 Créer un projet avec Intellij (cochez la case git).
+
 Attendre que le projet soit créé.
+
 Ajouter dans src/main/java un package (org.example par exemple).
+
 Faire de même dans le dossier de test sr/test/java.
+
 Créer une classe Voiture dans le packe de src/main/Java.
+
 Ajoutez à cette classe les attributs :
 - une marque
 - un prix
+
 Créer une classe VoitureTest dans le package de src/test/Java et écrivez à la norme JUnit le code de test de la classe Voiture.
+
 Lancer le programme de test (un rapport de test a été généré dans le dossier build/reports/tests/index/html)
+
 Créer un projet dans votre compte Github.
+
 Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre projet)
 
-<img src="images/pushExistingProjet.png" width="128"/>
+<img src="images/pushExistingProjet.png" width="300"/>
 
 # TD 2
 
