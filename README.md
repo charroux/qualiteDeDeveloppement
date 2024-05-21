@@ -38,7 +38,13 @@ Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre proje
 
 <img src="images/pushExistingProjet.png" width="500"/>
 
-# TD 2
+## Codage d'une classe de service
+
+Coder une classe de service à partir l'interface (implanter l'interface: https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
+
+Ecrivez la classe de test.
+
+# TD 2 - Spring boot test et Mockito
 
 Etude du framework de test inclus dans les projets Spring boot : https://github.com/charroux/springbootest
 
