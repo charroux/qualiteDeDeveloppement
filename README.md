@@ -14,7 +14,9 @@ Etudier l'utilisation des assertions : https://junit.org/junit5/docs/current/use
 
 # TP 1 - JUnit
 
-Créer un projet avec Intellij (cochez la case git).
+Créer un projet avec Intellij (cochez la case git et utilisez gradle comme gestionaire de librairies :
+
+<img src="images/projet.png" width="500"/>
 
 Attendre que le projet soit créé.
 
