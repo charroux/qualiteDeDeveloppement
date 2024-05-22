@@ -38,6 +38,9 @@ Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre proje
 
 <img src="images/pushExistingProjet.png" width="500"/>
 
+Indiquez l'adresse de votre projet dans le fichier dépots git : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
+
+
 ## Codage d'une classe de service
 
 Coder une classe de service à partir l'interface (implanter l'interface: https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
