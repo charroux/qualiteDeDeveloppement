@@ -56,6 +56,28 @@ Coder une classe de service à partir l'interface (implanter l'interface: https:
 
 Ecrivez la classe de test.
 
+# TP2
+
+Etudiez la technique de la matrice de test dans le cours sur les tests : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
+
+Etablir la matrice de tests.
+
+Ajouter à votre projet les tests définis dans la matrice de tests.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # TD 2 - Spring boot test et Mockito
 
 Etude du framework de test inclus dans les projets Spring boot : https://github.com/charroux/springbootest
