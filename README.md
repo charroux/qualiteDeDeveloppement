@@ -14,15 +14,21 @@ Etudier l'utilisation des assertions : https://junit.org/junit5/docs/current/use
 
 # TP 1 - JUnit
 
-Créer un projet avec Intellij (cochez la case git et utilisez gradle comme gestionaire de librairies :
+Créer un projet avec Intellij :
 
 <img src="images/projet.png" width="500"/>
 
 Attendre que le projet soit créé.
 
-Ajouter dans src/main/java un package (org.example par exemple).
+Ajouter la librairie Jupiter (clic droit sur le projet -> Open Module Settings) : 
 
-Faire de même dans le dossier de test sr/test/java.
+<img src="images/librairie.png" width="500"/>
+
+Ajouter dans src deux dossiers (java pour les classes à tester et test pour les classes de test).
+
+Indiquer à Intellij que java est le dossier pour le code source et test celui pour les tests.
+
+<img src="images/dossier.png" width="500"/>
 
 Créer une classe Voiture dans le packe de src/main/Java.
 
@@ -32,7 +38,9 @@ Ajoutez à cette classe les attributs :
 
 Créer une classe VoitureTest dans le package de src/test/Java et écrivez à la norme JUnit le code de test de la classe Voiture.
 
-Lancer le programme de test (un rapport de test a été généré dans le dossier build/reports/tests/index/html)
+Lancer le programme de test (clic droit sur la classe de test).
+
+## Sauvegarde de votre projet dans un dépôt Git vous appartenant
 
 Créer un projet dans votre compte Github.
 
@@ -41,7 +49,6 @@ Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre proje
 <img src="images/pushExistingProjet.png" width="500"/>
 
 Indiquez l'adresse de votre projet dans le fichier dépots git : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
-
 
 ## Codage d'une classe de service
 
