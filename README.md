@@ -60,7 +60,7 @@ Coder une classe de service à partir l'interface (implanter l'interface: https:
 
 Ecrivez la classe de test.
 
-# TP2
+# TP2 Matrice de test
 
 Etudiez la technique de la matrice de test dans le cours sur les tests : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
 
@@ -68,8 +68,7 @@ Etablir la matrice de tests.
 
 Ajouter à votre projet les tests définis dans la matrice de tests.
 
-
-
+# TP3 Couverture de code
 
 
 
