@@ -4,6 +4,10 @@ Le but de ce cours est de faire des tests d'intégration au fur et à mesure que
 tout en vérifiant que les tests précédents continuent de passer sans relever d'erreur. 
 On appelle cela des tests de non regression.
 
+## Support de cours
+
+https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
+
 # TD 1 - JUnit
 
 JUnit est un framework de test unitaire pour le langage de programmation Java, créé par Kent Beck et Erich Gamma.
