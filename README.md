@@ -52,9 +52,11 @@ Lancer le programme de test (clic droit sur la classe de test).
 
 ## Sauvegarde de votre projet dans un dépôt Git vous appartenant
 
-Créer un projet dans votre compte Github.
+Créer un projet PRIVE dans votre compte Github.
 
 Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre projet)
+
+Ajoutez votre enseignant comme seul membre du projet.
 
 <img src="images/pushExistingProjet.png" width="500"/>
 
