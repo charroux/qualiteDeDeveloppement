@@ -25,6 +25,8 @@ Créer un projet avec Intellij :
 Attendre que le projet soit créé.
 
 Ajouter la librairie Jupiter (clic droit sur le projet -> Open Module Settings) : 
+- choisissez Mavem pour que Intellij télécharge la librairie
+- tapez jupiter dans la zone de rechercche
 
 <img src="images/librairie.png" width="500"/>
 
