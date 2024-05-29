@@ -44,7 +44,9 @@ Ajoutez à cette classe les attributs :
 - une marque
 - un prix
 
-Créer une classe VoitureTest dans le package de src/test/Java et écrivez à la norme JUnit le code de test de la classe Voiture.
+Ajouter des getters setters.
+
+Créer une classe VoitureTest dans le package de src/test et écrivez à la norme JUnit le code de test de la classe Voiture.
 
 Lancer le programme de test (clic droit sur la classe de test).
 
