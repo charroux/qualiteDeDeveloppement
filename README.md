@@ -25,18 +25,20 @@ Créer un projet avec Intellij :
 Attendre que le projet soit créé.
 
 Ajouter la librairie Jupiter (clic droit sur le projet -> Open Module Settings) : 
-- choisissez Mavem pour que Intellij télécharge la librairie
+- choisissez Maven pour que Intellij télécharge la librairie
 - tapez jupiter dans la zone de rechercche
 
 <img src="images/librairie.png" width="500"/>
 
-Ajouter dans src deux dossiers (java pour les classes à tester et test pour les classes de test).
+Ajouter dans src deux dossiers (main pour les classes à tester et test pour les classes de test).
 
-Indiquer à Intellij que java est le dossier pour le code source et test celui pour les tests.
+Indiquer à Intellij que main est le dossier pour le code source et test celui pour les tests.
 
 <img src="images/dossier.png" width="500"/>
 
-Créer une classe Voiture dans le packe de src/main/Java.
+Créer un package (à votre nom par exemple) dans les deux dossiers main et test.
+
+Créer une classe Voiture dans le package de src/main
 
 Ajoutez à cette classe les attributs :
 - une marque
