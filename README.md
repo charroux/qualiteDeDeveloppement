@@ -62,6 +62,57 @@ Ajoutez votre enseignant comme seul membre du projet.
 
 Indiquez l'adresse de votre projet dans le fichier dépots git : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
 
+## Intégration continue ou Automatisation des tests lors des "pull requests"
+
+Quand un développeur apporte une modification au code il faut tester que son code n'est pas buggé
+et qu'il ne provoque pas d'erreur dans le code existant (tes de non regression du code). 
+Pour ne pas corrompre le code existant, toute modification doit se faire dans une branche.
+Le développeur en question pousser sa branche vers le serveur Git et à ce moment-là les tests 
+(de son code et du code déjà écrit) doivent être déclenchés automatiquement côté serveur.
+Si les tests réussissent, le chef de projet (ou une personne autorisée) pourra alors fusionner 
+les branches et les autres développeurs pourront alors télécharger la dernière version du code. 
+Cette procédure qui part de l'initiative du développeur et qui se termine par la fusion des branches si mes tests réussissent est appelée pull request.
+
+### Github actions
+
+Côté serveur, Github peut exécuter des tâches comme lancer les tests. Pour cela il faut configurer une action.
+
+Créer un fichier appelé actions.yml dans un dossier .github/workflow (attention au . devant github)
+
+Voilà un exemple d'un fichier d'action : 
+https://github.com/charroux/qualiteDeDeveloppement/blob/main/.github/workflows/actions.yml
+
+Etudiez ce fichier et adaptez-le à votre cas en ajustant le verion de Java (voir la doc https://github.com/actions/setup-java).
+
+### Adaptation du projet à l'automatisation des tests
+
+C'est l'outil Gradle qui est utilisé pour lancer les tests. Cependant, Gradle nécessite une adaptation du projet : 
+- les fichiers sources doivent être placés dans src/main/java et non plus seulement src/main
+- les programmes de tests doivent être placés dans src/test/java et non plus src/test
+- le projet doit contenir des dossiers et fichiers propres à Graddle
+
+### Créer une nouvelle version du code
+
+Créer une branche, codez-y une nouvelle fonctionalité, puis poussez la branche vers Github avec : 
+
+'''
+git push -u origin nomDeLaBranche
+'''
+
+### Créer une pull request
+
+Dans Github créer une pull request qui compare la version main avec celle de la nouvelle branche : 
+
+<img src="images/pullrequest.png" width="500"/>
+
+Dès lors que la request est validée, l'action débute. Vous pouvez la suivre sur le site de Github.
+
+Si l'action réussit, vous pourrez alors réaliser côté serveur la fusion de la nouvelle branche avec la branche main :
+
+<img src="images/merge.png" width="500"/>
+
+Tous les développeurs pourront ensuite récupérer sur leur machine la dernière version avec un git pull.
+
 ## Codage d'une classe de service
 
 Coder une classe de service à partir l'interface (implanter l'interface) : https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
