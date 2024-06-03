@@ -11,7 +11,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '1.8'
-          distribution: '22.0.1+8'
+          distribution: 'corretto'
       - name: Build test and build docker image
         run: |
           export SHELL=/bin/bash
