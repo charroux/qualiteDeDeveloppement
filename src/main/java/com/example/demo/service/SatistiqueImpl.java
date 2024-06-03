@@ -5,7 +5,7 @@ import com.example.demo.data.Voiture;
 public class SatistiqueImpl implements Statistique{
     @Override
     public void ajouter(Voiture voiture) {
-        
+
     }
 
     @Override
