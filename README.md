@@ -64,7 +64,7 @@ Indiquez l'adresse de votre projet dans le fichier dépots git : https://drive.g
 
 ## Codage d'une classe de service
 
-Coder une classe de service à partir l'interface (implanter l'interface: https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
+Coder une classe de service à partir l'interface (implanter l'interface) : https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
 
 Ecrivez la classe de test.
 
