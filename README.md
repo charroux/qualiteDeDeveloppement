@@ -62,7 +62,13 @@ Ajoutez votre enseignant comme seul membre du projet.
 
 Indiquez l'adresse de votre projet dans le fichier dépots git : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
 
-## Intégration continue ou Automatisation des tests lors des "pull requests"
+## Codage d'une classe de service
+
+Coder une classe de service à partir l'interface (implanter l'interface) : https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
+
+Ecrivez la classe de test.
+
+## TP2 - Intégration continue ou Automatisation des tests lors des "pull requests"
 
 Quand un développeur apporte une modification au code il faut tester que son code n'est pas buggé
 et qu'il ne provoque pas d'erreur dans le code existant (tes de non regression du code). 
@@ -95,9 +101,9 @@ C'est l'outil Gradle qui est utilisé pour lancer les tests. Cependant, Gradle n
 
 Créer une branche, codez-y une nouvelle fonctionalité, puis poussez la branche vers Github avec : 
 
-'''
+```
 git push -u origin nomDeLaBranche
-'''
+```
 
 ### Créer une pull request
 
@@ -113,13 +119,10 @@ Si l'action réussit, vous pourrez alors réaliser côté serveur la fusion de l
 
 Tous les développeurs pourront ensuite récupérer sur leur machine la dernière version avec un git pull.
 
-## Codage d'une classe de service
 
-Coder une classe de service à partir l'interface (implanter l'interface) : https://github.com/charroux/qualiteDeDeveloppement/blob/main/src/main/java/com/example/demo/service/Statistique.java
+# TP3 Couverture de code
 
-Ecrivez la classe de test.
-
-# TP2 Matrice de test
+# TP4 Matrice de test
 
 Etudiez la technique de la matrice de test dans le cours sur les tests : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
 
@@ -127,7 +130,6 @@ Etablir la matrice de tests.
 
 Ajouter à votre projet les tests définis dans la matrice de tests.
 
-# TP3 Couverture de code
 
 
 
