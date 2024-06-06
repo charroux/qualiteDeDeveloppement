@@ -107,11 +107,17 @@ vous pouvez créer un projet Gradle à partir du site : https://start.spring.io/
 Puis téléchargez le projet.
 
 Copiez ensuite les dossiers et fichiers suivants vers votre projet :
+
 ./gradle
+
 build.gradle
+
 gradle.properties
+
 gradlew
+
 gradlew.bat
+
 settings.gradle 
 
 Editez ce dernier fichier pour y indiquer le nom de votre projet.
