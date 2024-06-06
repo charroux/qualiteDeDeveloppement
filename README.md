@@ -95,7 +95,26 @@ Etudiez ce fichier et adaptez-le à votre cas en ajustant le verion de Java (voi
 C'est l'outil Gradle qui est utilisé pour lancer les tests. Cependant, Gradle nécessite une adaptation du projet : 
 - les fichiers sources doivent être placés dans src/main/java et non plus seulement src/main
 - les programmes de tests doivent être placés dans src/test/java et non plus src/test
-- le projet doit contenir des dossiers et fichiers propres à Graddle
+- le projet doit contenir des dossiers et fichiers propres à Gradle
+
+#### Ajoutez les fichiers de configuration de Gradle
+
+Une façon de récupérer les fichiers de configuration de Gradle est de créer un projet à la norme Gradle,
+et de copier les fichiers de configuration vers votre projet.
+
+vous pouvez créer un projet Gradle à partir du site : https://start.spring.io/
+
+Puis téléchargez le projet.
+
+Copiez ensuite les dossiers et fichiers suivants vers votre projet :
+./gradle
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle 
+
+Editez ce dernier fichier pour y indiquer le nom de votre projet.
 
 ### Créer une nouvelle version du code
 
