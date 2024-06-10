@@ -146,10 +146,24 @@ Si l'action réussit, vous pourrez alors réaliser côté serveur la fusion de l
 
 Tous les développeurs pourront ensuite récupérer sur leur machine la dernière version avec un git pull.
 
+# TP3 Suite de tests
 
-# TP3 Couverture de code
+Il est possible de lancer les tests de plusieurs classes de tests via une "test suite".
 
-# TP4 Matrice de test
+Pour cela il faut inclure dans le projet une nouvelle librairie : 
+
+<img src="images/suitelib.png" width="500"/>
+
+# TP4 Couverture de code
+
+Les tests de couvertures de code consistent à vérifier que les programmes de tests activent toutes les 
+instructionds des programme à tester. 
+Vous pouvez lancer un test de couverture de code en faisant un clic droit sur un programnme de test et en lançant : test with coverage.
+
+
+
+
+# TP5 Matrice de test
 
 Etudiez la technique de la matrice de test dans le cours sur les tests : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
 
@@ -158,6 +172,6 @@ Etablir la matrice de tests.
 Ajouter à votre projet les tests définis dans la matrice de tests.
 
 
-
+    
 
 
