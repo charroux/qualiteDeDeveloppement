@@ -158,12 +158,10 @@ Etudier ensuite la documentation pour savoir comment configurer une suite de tes
 
 # TP4 Couverture de code
 
-Les tests de couvertures de code consistent à vérifier que les programmes de tests activent toutes les 
-instructionds des programme à tester. 
+Les tests de couverture de code consistent à vérifier que les programmes de tests activent toutes les 
+instructions des programme à tester. 
+
 Vous pouvez lancer un test de couverture de code en faisant un clic droit sur un programnme de test et en lançant : test with coverage.
-
-
-
 
 # TP5 Matrice de test
 
