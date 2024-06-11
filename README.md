@@ -154,6 +154,8 @@ Pour cela il faut inclure dans le projet une nouvelle librairie :
 
 <img src="images/suitelib.png" width="500"/>
 
+Etudier ensuite la documentation pour savoir comment configurer une suite de tests : https://junit.org/junit5/docs/current/user-guide/#junit-platform-suite-engine-example
+
 # TP4 Couverture de code
 
 Les tests de couvertures de code consistent à vérifier que les programmes de tests activent toutes les 
