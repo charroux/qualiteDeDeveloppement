@@ -88,7 +88,7 @@ Cette procédure qui part de l'initiative du développeur et qui se termine par 
 
 Côté serveur, Github peut exécuter des tâches comme lancer les tests. Pour cela il faut configurer une action.
 
-Créer un fichier appelé actions.yml dans un dossier .github/workflow (attention au . devant github)
+Créer un fichier appelé actions.yml dans un dossier .github/workflows (attention au . devant github)
 
 Voilà un exemple d'un fichier d'action : 
 https://github.com/charroux/qualiteDeDeveloppement/blob/main/.github/workflows/actions.yml
@@ -102,7 +102,7 @@ C'est l'outil Gradle qui est utilisé pour lancer les tests. Cependant, Gradle n
 - les programmes de tests doivent être placés dans src/test/java et non plus src/test (ne pas oublier d'indiquer à Intellij le changement (voir TP1))
 - le projet doit contenir des dossiers et fichiers propres à Gradle
 
-#### Ajoutez les fichiers de configuration de Gradle (uniquement dans le cas d'un projet qui n'est pas Gradle)
+#### Ajoutez les fichiers de configuration de Gradle
 
 Une façon de récupérer les fichiers de configuration de Gradle est de créer un projet à la norme Gradle,
 et de copier les fichiers de configuration vers votre projet.
