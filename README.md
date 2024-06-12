@@ -149,7 +149,9 @@ Si l'action réussit, vous pourrez alors réaliser côté serveur la fusion de l
 
 Tous les développeurs pourront ensuite récupérer sur leur machine la dernière version avec un git pull.
 
-# TP3 Suite de tests
+# TP3 Suite de tests 
+
+## Cas d'un projet Java
 
 Il est possible de lancer les tests de plusieurs classes de tests via une "test suite".
 
@@ -164,6 +166,18 @@ Pour ce faire, éditez le fichier build.gradle et ajouter dans dependencies que 
 ```
 testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.2'
 ```
+
+## Cas d'un projet Gradle
+
+Vérification des que JUnit est bien indiqué comme librairie en éditant le fichier build.gradle.
+
+Vérifier que vous avez bien les deux librairies (dans dependency) :
+
+```
+testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
+testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.2'
+```
+
 # TP4 Couverture de code
 
 Les tests de couverture de code consistent à vérifier que les programmes de tests activent toutes les 
