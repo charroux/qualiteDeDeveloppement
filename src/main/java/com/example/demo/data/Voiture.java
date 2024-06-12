@@ -8,6 +8,7 @@ import javax.persistence.Id;
 @Entity
 public class Voiture {
     int id;
+    String marque;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
