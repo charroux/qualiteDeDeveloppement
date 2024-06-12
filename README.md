@@ -54,7 +54,12 @@ Lancer le programme de test (clic droit sur la classe de test).
 
 Créer un projet PRIVE dans votre compte Github.
 
-Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre projet)
+Poussez votre code vers votre dépôt git (en indiquant l'adresse de votre projet) 
+
+Si le push vous indique un problème de proxy, vous pouvez l'inhiber en faisant :
+```
+git config --global --unset-all http.proxy
+```
 
 Ajoutez votre enseignant comme seul membre du projet.
 
@@ -112,8 +117,6 @@ Copiez ensuite les dossiers et fichiers suivants vers votre projet (à la racinn
 
 build.gradle
 
-gradle.properties
-
 gradlew
 
 gradlew.bat
@@ -156,6 +159,11 @@ Pour cela il faut inclure dans le projet une nouvelle librairie :
 
 Etudier ensuite la documentation pour savoir comment configurer une suite de tests : https://junit.org/junit5/docs/current/user-guide/#junit-platform-suite-engine-example
 
+Afin que les tests puissent être lancés sur le site de Github, il faut aussi mettre à jour la configuration de gradle. 
+Pour ce faire, éditez le fichier build.gradle et ajouter dans dependencies que le projet doit utiliser comme librairie junit suite engine :
+```
+testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.2'
+```
 # TP4 Couverture de code
 
 Les tests de couverture de code consistent à vérifier que les programmes de tests activent toutes les 
