@@ -159,8 +159,6 @@ Pour cela il faut inclure dans le projet une nouvelle librairie :
 
 <img src="images/suitelib.png" width="500"/>
 
-Etudier ensuite la documentation pour savoir comment configurer une suite de tests : https://junit.org/junit5/docs/current/user-guide/#junit-platform-suite-engine-example
-
 Afin que les tests puissent être lancés sur le site de Github, il faut aussi mettre à jour la configuration de gradle. 
 Pour ce faire, éditez le fichier build.gradle et ajouter dans dependencies que le projet doit utiliser comme librairie junit suite engine :
 ```
@@ -177,6 +175,9 @@ Vérifier que vous avez bien les deux librairies (dans dependency) :
 testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
 testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.2'
 ```
+## Ecrire une suite de tests
+
+Etudier ensuite la documentation pour savoir comment configurer une suite de tests : https://junit.org/junit5/docs/current/user-guide/#junit-platform-suite-engine-example
 
 # TP4 Couverture de code
 
