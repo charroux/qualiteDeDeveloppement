@@ -95,14 +95,14 @@ https://github.com/charroux/qualiteDeDeveloppement/blob/main/.github/workflows/a
 
 Etudiez ce fichier et adaptez-le à votre cas en ajustant le verion de Java (voir la doc https://github.com/actions/setup-java).
 
-### Adaptation du projet à l'automatisation des tests
+### Adaptation du projet à l'automatisation des tests (uniquement dans le cas d'un projet qui n'est pas Gradle)
 
 C'est l'outil Gradle qui est utilisé pour lancer les tests. Cependant, Gradle nécessite une adaptation du projet : 
 - les fichiers sources doivent être placés dans src/main/java et non plus seulement src/main (ne pas oublier d'indiquer à Intellij le changement (voir TP1))
 - les programmes de tests doivent être placés dans src/test/java et non plus src/test (ne pas oublier d'indiquer à Intellij le changement (voir TP1))
 - le projet doit contenir des dossiers et fichiers propres à Gradle
 
-#### Ajoutez les fichiers de configuration de Gradle
+#### Ajoutez les fichiers de configuration de Gradle (uniquement dans le cas d'un projet qui n'est pas Gradle)
 
 Une façon de récupérer les fichiers de configuration de Gradle est de créer un projet à la norme Gradle,
 et de copier les fichiers de configuration vers votre projet.
