@@ -159,12 +159,6 @@ Pour cela il faut inclure dans le projet une nouvelle librairie :
 
 <img src="images/suitelib.png" width="500"/>
 
-Afin que les tests puissent être lancés sur le site de Github, il faut aussi mettre à jour la configuration de gradle. 
-Pour ce faire, éditez le fichier build.gradle et ajouter dans dependencies que le projet doit utiliser comme librairie junit suite engine :
-```
-testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.2'
-```
-
 ## Cas d'un projet Gradle
 
 Vérification des que JUnit est bien indiqué comme librairie en éditant le fichier build.gradle.
