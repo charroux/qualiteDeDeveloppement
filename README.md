@@ -180,6 +180,20 @@ instructions des programme à tester.
 
 Vous pouvez lancer un test de couverture de code en faisant un clic droit sur un programnme de test et en lançant : test with coverage.
 
+## Couverture de code côté serveur (cas d'un projet Gradle)
+
+Il est possible de modifier la configuration du projet pour que les tests de couverture de code se lancent lors d'un pull request : 
+
+Il y a plusieurs librairies qui réalisent des tests de couverture de code. Ici, c'est JaCoCo qui est utilisée : https://www.jacoco.org/jacoco/
+
+La configuration de JaCoCo se fait dans le fichier de configuration de Gradle : https://github.com/charroux/qualiteDeDeveloppement/blob/main/build.gradle
+
+Lors d'un pull request le tests de couverture de code vont être lancés et un rapport d'exécution sera émis côté sur le site de Github : 
+
+<img src="images/jacoco.png" width="500"/>
+
+Le rapport doit indiquer que le code est couvert à 100%.
+
 # TP5 Matrice de test
 
 Etudiez la technique de la matrice de test dans le cours sur les tests : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
