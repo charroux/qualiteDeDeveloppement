@@ -182,8 +182,7 @@ Vous pouvez lancer un test de couverture de code en faisant un clic droit sur un
 
 ## Couverture de code côté serveur (cas d'un projet Gradle)
 
-Il est possible de modifier la configuration du projet pour que les tests de couverture de code se lancent lors d'un pull request : 
-
+Il est possible de modifier la configuration du projet pour que les tests de couverture de code se lancent lors d'un pull request.
 Il y a plusieurs librairies qui réalisent des tests de couverture de code. Ici, c'est JaCoCo qui est utilisée : https://www.jacoco.org/jacoco/
 
 La configuration de JaCoCo se fait dans le fichier de configuration de Gradle : https://github.com/charroux/qualiteDeDeveloppement/blob/main/build.gradle
