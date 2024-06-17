@@ -125,8 +125,6 @@ settings.gradle
 
 Editez ce dernier fichier pour y indiquer le nom de votre projet.
 
-Le projet que vous avez téléchargé contient aussi un programme main (dans le dossier src/main/java) que vous devez copier dans votre projet (src/main/java) en conservant les packages.
-
 ### Créer une nouvelle version du code
 
 Créer une branche, codez-y une nouvelle fonctionalité, puis poussez la branche vers Github avec : 
