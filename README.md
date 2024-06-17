@@ -187,13 +187,15 @@ Il y a plusieurs librairies qui réalisent des tests de couverture de code. Ici,
 
 La configuration de JaCoCo se fait dans le fichier de configuration de Gradle : https://github.com/charroux/qualiteDeDeveloppement/blob/main/build.gradle
 
+Il faut aussi modifier le fichier de script : https://github.com/charroux/qualiteDeDeveloppement/tree/main/.github/workflows
+
 Lors d'un pull request le tests de couverture de code vont être lancés et un rapport d'exécution sera émis côté sur le site de Github : 
 
 <img src="images/jacoco.png" width="500"/>
 
 Le rapport doit indiquer que le code est couvert à 100%.
 
-# TP5 Matrice de test
+# TP5 Matrice de test (noté en bonus)
 
 Etudiez la technique de la matrice de test dans le cours sur les tests : https://drive.google.com/drive/folders/1RVLc4yg5IKTq3OSht6wm1Cdjq9jOLEqy?usp=sharing
 
