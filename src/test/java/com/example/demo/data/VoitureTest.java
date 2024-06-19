@@ -32,6 +32,9 @@ public class VoitureTest {
         Voiture voiture = new Voiture();
         voiture.setMarque("Honda");
         assertEquals("Honda", voiture.getMarque());
+        Voiture voiture2 = new Voiture();
+        voiture2.setMarque("Lexus");
+        assertEquals("Lexus", voiture2.getMarque());
     }
 
     @Test
